@@ -42,6 +42,7 @@ xtest = xtest.reshape(-1,1)
 predict = model.predict(xtest)
 # round the value in the np array to 2 decimal places
 predict = np.around(predict, 2)
+print(predict)
 
 # compare the actual and predicted values
 print("\nTesting Linear Model with Testing Data:")
