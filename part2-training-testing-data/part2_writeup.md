@@ -12,4 +12,4 @@ The R square coefficient tells us how the ae of a person doesn't give a direct c
 
 3. Would you say that your model is accurate? What evidence supports your conclusion? Consider the meaning of the predicted and actual values in the context of the chart below from the American Heart Association’s website on understanding blood pressure.
 
-The predicted and actual values vary but not too great. Some "normal" values elevated in comparasion to the actual normal levels. This can be dangerous for people to use because it will give data that isn't too accurate which can cause people to suffer from it because they will have bad blood pressure readings.  
+The predicted and actual values are accurate. On the American heart association website, it gives a range of different blood pressure levels that can be healthy ot unhealthy. According to the American Heart Assocation, the normal lvels for blood pressure of a 17 year old range form 80 to 120 and on the predicted data, the value is 114. This value is in between the range of normal blood pressures which shows how the predicted numbers are accurate according to the American Heart Association.
