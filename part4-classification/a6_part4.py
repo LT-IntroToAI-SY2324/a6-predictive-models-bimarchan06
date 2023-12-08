@@ -25,6 +25,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y)
 model = linear_model.LogisticRegression().fit(x_train, y_train)
 
 # Step 7: Print the score to see the accuracy of the model
+print("Score:", model.score(x_test, y_test))
 
 # Step 8: Print out the actual ytest values and predicted y values
 print("Accuracy:", model.score(x_test, y_test))
@@ -34,23 +35,24 @@ print("")
 print(y_test)
 for index in range(len(x_test)):
     x = x_test[index]
-    x = x.reshape(-1, 4)
+    x = x.reshape(-1, 3)
     y_pred = int(model.predict(x))
 
     if y_pred == 0:
-        y_pred = "Iris-setosa"
+        y_pred = "Male"
     elif y_pred == 1:
-        y_pred = "Iris-virginica"
-    else:
-        y_pred = "Iris-versicolor"
-    
+        y_pred = "Female"
+   
+
     actual = y_test[index]
     if actual == 0:
-        actual = "Iris-setosa"
+        actual = "Male"
     elif actual == 1:
-        actual = "Iris-virginica"
-    else:
-        actual = "Iris-versicolor"
-    print("Predicted Species: " + y_pred + " Actual Species: " + actual)
+        actual = "Female"
+
+    print("Predicted Gender: " + y_pred + " Actual Gender: " + actual)
     print("")
+    
 # based on the xtest data
+ExampleFemale = model.predict([[63, 56000, 1]])
+print("A 34-year-old female will", ExampleFemale)
