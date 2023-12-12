@@ -13,6 +13,7 @@ Orange(spends more and earns more): The deep pocketers
 Red(spend less, earn less): The realists
 
 2. What group would a customer who has a medium income and low spending habits be in?
+
 They would be in the frugalists group (Green group)
 
 3. Choose one cluster of interest to you. How might the marketing team approach this specific customer group?
