@@ -26,6 +26,7 @@ plt.figure(figsize=(5,4))
 #plots the data points for each cluster
 for i in range(k):
     cluster = x_std[labels == i]
+    print(cluster)
     plt.scatter(cluster[:,0], cluster[:,1])
 
 #plots the centriods
