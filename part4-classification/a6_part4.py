@@ -53,6 +53,10 @@ for index in range(len(x_test)):
     print("Predicted Gender: " + y_pred + " Actual Gender: " + actual)
     print("")
     
+    my_suv_data=[[34, 5600, 1 ]]
+    my_scaled_data = scaler.transform(my_suv_data)
+    my_predictions =model.predict(my_scaled_data)
+    print(my_predictions)
 # based on the xtest data
 ExampleFemale = model.predict([[63, 56000, 1]])
 print("A 34-year-old female will", ExampleFemale)

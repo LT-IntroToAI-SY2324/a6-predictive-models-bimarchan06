@@ -54,3 +54,7 @@ for index in range(len(xtest)):
     x_coord = xtest[index] # gets the x value from the xtest dataset
     x_coord = np.around(x_coord, 2)
     print(f"Miles: {x_coord[0]} Age: {x_coord[1]} Actual: {actual} Predicted: {predicted_y}")
+
+    my_cars=[[89,10],[150,20]]
+    my_predictions=model.predict(my_cars)
+    print(my_predictions)
